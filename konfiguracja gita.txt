@@ -1,0 +1,24 @@
+1. Inicjalizacja repozytorium lokalnie
+git init
+
+2. Generacja klucza ssh
+ssh-keygen
+
+3. Dodanie plików do repozytorium lokalnie - z kropką dodanie wszystkiego, z -A dodanie względne
+git add .
+git add -A
+
+4. Konfiguracja użytkowanika na urządzeniu
+git config --global user.name "Kamil Arent"
+git config --global user.email "kamilarent91@gmail.com"
+
+5. commit
+git commit -m "Opis commita"
+
+6. add origin
+
+git remote add origin `link do repo`
+
+7. push
+
+git push -u origin main

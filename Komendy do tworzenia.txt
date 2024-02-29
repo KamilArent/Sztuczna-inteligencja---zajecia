@@ -1,0 +1,29 @@
+```Git bash```
+1. Stworzyć folder projektu
+2. Stworzenie wirtualnego środowiska
+python -m venv venv
+3. Aktywacja wirtualnego środowiska
+w git bash:
+source venv/Scripts/activate
+4. instalacja django w wirtualnym środowisku
+pip install django
+5. Stworzenie projektu django - kropka na końcu polecenia celowo
+django-admin startproject AIproject .
+6. stworzenie aplikacji django
+django-admin startapp AIapp
+
+7. Uruchomienie pliku
+python manage.py runserver
+
+
+```Terminal visuala```
+8. Migracje plików
+python.exe manage.py migrate
+9. Stworzenie użytkownika
+python.exe manage.py createsuperuser
+
+moje dane
+	kamil
+	123
+	kamilarent91@gmail.com
+}
